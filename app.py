@@ -6,7 +6,7 @@ import plotly.express as px
 # Page Setup
 st.set_page_config(page_title="Weather Analytics Dashboard", page_icon="🌤️", layout="wide")
 
-st.title("🌤️ Real-Time Weather & Analytics Dashboard")
+st.title("Real-Time Weather & Analytics Dashboard")
 st.write("Built by Faiz Khan | Powered by Python & REST APIs")
 
 # User Input for City Selection
@@ -38,7 +38,7 @@ if st.button("Fetch Weather Data"):
 
             # Extract Hourly Forecast for Chart Visualizations
             st.divider()
-            st.subheader("📊 Today's Hourly Temperature Trend")
+            st.subheader("📊Today's Hourly Temperature Trend")
             
             hourly_data = data['weather'][0]['hourly']
             

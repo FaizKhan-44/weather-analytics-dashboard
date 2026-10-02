@@ -7,23 +7,22 @@ I built this project to expand on my weather API concept and turn raw API data i
 ---
 
 ## 🔗 Live App
-[Check out the Live App Here](https://your-app-name.streamlit.app)
+[Check out the Live App Here](https://faiz-weather-analytics.streamlit.app/)
 
 ---
 
 ## 🚀 Features
-* **Live Weather Metrics:** Displays current temperature, humidity, wind speed, and general weather conditions[cite: 1].
+* **Live Weather Metrics:** Displays current temperature, humidity, wind speed, and general weather conditions.
 * **Hourly Trend Visuals:** Plots hourly temperature changes using Plotly charts.
-* **Data Processing:** Cleans and formats raw API JSON data into structured Pandas DataFrames[cite: 1].
+* **Data Processing:** Cleans and formats raw API JSON data into structured Pandas DataFrames.
 * **Raw Data View:** Includes an expandable view to inspect raw hourly dataset tables.
-
 ---
 
 ## 🛠️ Tech Stack
-* **Python 3.11+**[cite: 1]
+* **Python 3.11+**
 * **Streamlit** (Web UI)
-* **Requests** (API fetching)[cite: 1]
-* **Pandas** (Data cleaning & manipulation)[cite: 1]
+* **Requests** (API fetching)
+* **Pandas** (Data cleaning & manipulation)
 * **Plotly** (Data visualization)
 
 ---
@@ -32,10 +31,9 @@ I built this project to expand on my weather API concept and turn raw API data i
 
 1. Clone the repo:
 ```bash
-git clone [https://github.com/FaizKhan-44/weather-analytics-dashboard.git](https://github.com/FaizKhan-44/weather-analytics-dashboard.git)
+git clone https://github.com/FaizKhan-44/weather-analytics-dashboard.git
 cd weather-analytics-dashboard
 
-libraries required :
-  pip install -r requirements.txt
-command to run :
+pip install -r requirements.txt
 python -m streamlit run app.py
+```
